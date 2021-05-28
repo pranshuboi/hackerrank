@@ -1,0 +1,18 @@
+
+#
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+
+def print_full_name(first, last):
+    o="Hello "
+    o+=first
+    o+=" "
+    o+=last
+    o+="! You just delved into python."
+    print(o)
+    
